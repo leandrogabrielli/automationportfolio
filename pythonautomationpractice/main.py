@@ -18,7 +18,7 @@ class automationpractice(unittest.TestCase):
 		time.sleep(2)
 		login = LoginPage(driver)
 		login.enter_username("leandrogabrielli91@gmail.com")
-		login.enter_password("zxnm123")
+		login.enter_password("aaaaa")
 		login.click_login()
 		time.sleep(2)
 		homepage.click_log_out()
